@@ -2,7 +2,7 @@
 
 ## Domain Proyek
 
-Dalam proyek yang diangkat yaitu aplikasi DANA. DANA adalah aplikasi keuangan yang inovatif dan berkembang pesat di Indonesia. Dikenal sebagai platform pembayaran digital, DANA telah meraih popularitas karena kemudahan dan beragam fitur yang ditawarkannya kepada penggunanya. Dengan DANA, pengguna dapat melakukan berbagai transaksi keuangan, mentransfer uang, membayar tagihan, hingga berbelanja secara online.
+Proyek yang diangkat yaitu aplikasi DANA. DANA adalah aplikasi keuangan yang inovatif dan berkembang pesat di Indonesia. Dikenal sebagai platform pembayaran digital, DANA telah meraih popularitas karena kemudahan dan beragam fitur yang ditawarkannya kepada penggunanya. Dengan DANA, pengguna dapat melakukan berbagai transaksi keuangan, mentransfer uang, membayar tagihan, hingga berbelanja secara online.
 
 Satu hal yang menarik, DANA juga dapat diunduh melalui Playstore, di mana para pengguna memiliki kesempatan untuk memberikan ulasan dan penilaian terhadap aplikasi ini. Melalui ulasan-ulasan tersebut, kita dapat memperoleh wawasan yang berharga mengenai pengalaman pengguna dengan aplikasi DANA, termasuk kepuasan, keluhan, dan saran untuk perbaikan.
 
@@ -61,7 +61,7 @@ Sumber dataset yang digunakan dalam proyek ini adalah dari Kaggle, yang dapat di
 Dataset ini terdiri dari 5 kolom, yaitu:
 
 - UserName: Kolom ini berisi nama pengguna yang memberikan ulasan terhadap aplikasi DANA di Google Playstore.
-- Score: olom ini menyimpan nilai atau rating yang diberikan oleh pengguna terhadap aplikasi DANA. Nilai ini berkisar dari 1 hingga 5, di mana 1 menunjukkan rating terendah dan 5 menunjukkan rating tertinggi.
+- Score: kolom ini menyimpan nilai atau rating yang diberikan oleh pengguna terhadap aplikasi DANA. Nilai ini berkisar dari 1 hingga 5, di mana 1 menunjukkan rating terendah dan 5 menunjukkan rating tertinggi.
 - At: Kolom ini berisi informasi tanggal dan waktu ketika ulasan diberikan oleh pengguna.
 - Content: Kolom ini menyimpan teks ulasan yang ditulis oleh pengguna terkait pengalaman mereka dengan aplikasi DANA.
 - Sentimen: Kolom ini berisi label sentimen yang menunjukkan apakah ulasan yang diberikan oleh pengguna bersifat positif, negatif, atau netral terhadap aplikasi DANA.
@@ -84,7 +84,7 @@ Pada bagian ini, teknik data preparation dilakukan seperti membaca data, analisi
 
 ## Modeling
 
-Pada bagian ini, model machine learning yang digunakan untuk menyelesaikan masalah analisis sentimen pada ulasan aplikasi DANA yaitu dua algoritma. Dua algoritma yang digunakan adalah Support Vector Machine (SVM) yaitu Support Vector Machine adalah algoritma klasifikasi yang sangat efektif untuk masalah dengan dimensi tinggi. SVM bekerja dengan mencari hyperplane yang memisahkan kelas-kelas data secara optimal dan Random Forest yaitu ensemble learning method yang menggunakan banyak pohon keputusan (decision trees) untuk meningkatkan performa dan mengurangi risiko overfitting.
+Pada bagian ini, model machine learning yang digunakan untuk menyelesaikan masalah analisis sentimen pada ulasan aplikasi DANA yaitu dua algoritma. Dua algoritma yang digunakan adalah Support Vector Machine (SVM) adalah algoritma klasifikasi yang sangat efektif untuk masalah dengan dimensi tinggi. SVM bekerja dengan mencari hyperplane yang memisahkan kelas-kelas data secara optimal dan Random Forest adalah ensemble learning method yang menggunakan banyak pohon keputusan (decision trees) untuk meningkatkan performa dan mengurangi risiko overfitting.
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 
@@ -100,7 +100,6 @@ Pada bagian ini, akan menyebutkan dan menjelaskan metrik evaluasi yang digunakan
 - Precision: rasio jumlah prediksi positif yang benar terhadap total jumlah prediksi positif.
 - Recall: rasio jumlah prediksi positif yang benar terhadap total jumlah kasus positif aktual.
 - F1 Score: metrik yang memberikan keseimbangan antara precision dan recall.
-- Menjelaskan hasil proyek berdasarkan metrik evaluasi
 
 Hasil evaluasi
 
